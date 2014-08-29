@@ -21,4 +21,9 @@ a {
 
 a:hover {
   color: black;
+  text-decoration: none;
+}
+
+.btn-default:hover {
+  background-color: #f5f6f6;
 }
