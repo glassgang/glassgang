@@ -2,8 +2,8 @@ body, h1, h2, h3, h4, h5, h6, p {
   font-family: 'Playfair Display', serif;
 }
 
-.container-fluid {
-  max-width: 520px;
+body {
+  background-color: #000;
 }
 
 .download {
@@ -26,15 +26,4 @@ a:hover {
 
 .btn-default:hover {
   background-color: #f5f6f6;
-}
-
-
-// new styles for album release
-
-#lower {
-  background-color: #000;
-}
-
-#lower .container-fluid {
-  max-width: none;
 }
