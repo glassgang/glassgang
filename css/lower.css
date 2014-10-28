@@ -34,6 +34,9 @@ a:hover {
 
 .video-background {
   display: block;
+  position: relative;
+  top: 0;
+  left: 0;
   background-image: image-url("https://s3-us-west-2.amazonaws.com/glassgang/video-still.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,4 +47,8 @@ a:hover {
 .video-background video {
   display: inline-block;
   width: 100%;
+}
+
+.ui-video-background-controls {
+  display: none;
 }
