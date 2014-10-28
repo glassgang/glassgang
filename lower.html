@@ -23,6 +23,7 @@
     <![endif]-->
 
     <!-- Video background -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/jquery.videobackground.js"></script>
     <script src="js/lower.js"></script>
 
@@ -35,7 +36,7 @@
 
   </head>
   <body>
-    <section class="video-feature"></section>
+    <section class="video-background"></section>
 
     <div class="container-fluid">
       <section class="download">
@@ -74,5 +75,29 @@
       ga('create', 'UA-54350437-1', 'auto');
       ga('send', 'pageview');
     </script>
+
+    <script>
+
+      $(document).ready(function() {
+        $('dl').toggle();
+        $('h2').bind('click', function(event) {
+          event.preventDefault();
+          $(this).next('dl').slideToggle(500, function() {
+            $('.video-background').videobackground('resize');
+          });
+        });
+        $('body').prepend('<div class="video-background"></div>');
+        $('.video-background').videobackground({
+          videoSource: [['video/big-buck-bunny.mp4', 'video/mp4'],
+            ['video/big-buck-bunny.webm', 'video/webm'],
+            ['video/big-buck-bunny.ogv', 'video/ogg']],
+          controlPosition: '#main',
+          poster: 'video/big-buck-bunny.jpg',
+          loadedCallback: function() {
+            $(this).videobackground('mute');
+          }
+        });
+      });
+
   </body>
 </html>
