@@ -27,3 +27,24 @@ a:hover {
 .btn-default:hover {
   background-color: #f5f6f6;
 }
+
+
+.video-background {
+  background-image: image-url("https://cdn.shopify.com/s/files/1/0097/1902/t/7/assets/video-still.jpg?3175");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0 !important;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.video-background video {
+  display: inline-block;
+  min-height: 100%;
+  min-width: 100%;
+}
