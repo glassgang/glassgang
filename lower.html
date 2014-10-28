@@ -83,6 +83,8 @@
             ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.ogv', 'video/ogg']
           ],
           poster: 'https://s3-us-west-2.amazonaws.com/glassgang/video-still.jpg',
+          loop: true,
+          preload: 'auto',
           loadedCallback: function() {
             $(this).videobackground('mute');
           }
