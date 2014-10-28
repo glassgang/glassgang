@@ -22,26 +22,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Video background -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery.videobackground.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('body').prepend('<div class="video-background"></div>');
-        $('.video-background').videobackground({
-          videoSource: [
-            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.mp4', 'video/mp4'],
-            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.webm', 'video/webm'],
-            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.ogv', 'video/ogg']
-          ],
-          poster: 'https://www.google.com/images/srpr/logo11w.png',
-          loadedCallback: function() {
-            $(this).videobackground('mute');
-          }
-        });
-      });
-    </script>
-
     <!-- Touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
@@ -89,5 +69,23 @@
       ga('send', 'pageview');
     </script>
 
+    <!-- Video background -->
+    <script src="js/jquery.videobackground.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('body').prepend('<div class="video-background"></div>');
+        $('.video-background').videobackground({
+          videoSource: [
+            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.mp4', 'video/mp4'],
+            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.webm', 'video/webm'],
+            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.ogv', 'video/ogg']
+          ],
+          poster: 'https://www.google.com/images/srpr/logo11w.png',
+          loadedCallback: function() {
+            $(this).videobackground('mute');
+          }
+        });
+      });
+    </script>
   </body>
 </html>
