@@ -34,16 +34,17 @@ a:hover {
 }
 
 .video-background {
-  display: block;
-  position: relative;
-  top: 0;
-  left: 0;
   background-image: image-url("https://s3-us-west-2.amazonaws.com/glassgang/video-still.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0 !important;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
 
 .video-background video {
