@@ -48,7 +48,8 @@ a:hover {
 
 .video-background video {
   display: inline-block;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 .ui-video-background-controls {
