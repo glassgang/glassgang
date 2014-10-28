@@ -37,6 +37,7 @@ a:hover {
   background-image: image-url("https://cdn.shopify.com/s/files/1/0097/1902/t/7/assets/video-still.jpg?3175");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 
 .video-background video {
