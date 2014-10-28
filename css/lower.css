@@ -43,7 +43,7 @@ a:hover {
   left: 0 !important;
   overflow: hidden;
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: 0;
 }
 
