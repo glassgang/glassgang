@@ -36,9 +36,9 @@
         });
         $('body').prepend('<div class="video-background"></div>');
         $('.video-background').videobackground({
-          videoSource: [['video/big-buck-bunny.mp4', 'video/mp4'],
-            ['video/big-buck-bunny.webm', 'video/webm'],
-            ['video/big-buck-bunny.ogv', 'video/ogg']],
+          videoSource: [['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.mp4', 'video/mp4'],
+            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.webm', 'video/webm'],
+            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.ogv', 'video/ogg']],
           controlPosition: '#main',
           poster: 'video/big-buck-bunny.jpg',
           loadedCallback: function() {
@@ -57,7 +57,7 @@
 
   </head>
   <body>
-    <section class="video-feature">need something here</section>
+    <section class="video-background">need something here</section>
 
     <div class="container-fluid">
       <section class="download">
