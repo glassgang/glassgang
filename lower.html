@@ -25,7 +25,28 @@
     <!-- Video background -->
     <script src="js/jquery.js"></script>
     <script src="js/jquery.videobackground.js"></script>
-    <script src="js/lower.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('dl').toggle();
+        $('h2').bind('click', function(event) {
+          event.preventDefault();
+          $(this).next('dl').slideToggle(500, function() {
+            $('.video-background').videobackground('resize');
+          });
+        });
+        $('body').prepend('<div class="video-background"></div>');
+        $('.video-background').videobackground({
+          videoSource: [['video/big-buck-bunny.mp4', 'video/mp4'],
+            ['video/big-buck-bunny.webm', 'video/webm'],
+            ['video/big-buck-bunny.ogv', 'video/ogg']],
+          controlPosition: '#main',
+          poster: 'video/big-buck-bunny.jpg',
+          loadedCallback: function() {
+            $(this).videobackground('mute');
+          }
+        });
+      });
+    </script>
 
     <!-- Touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
