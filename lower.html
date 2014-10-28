@@ -27,20 +27,14 @@
     <script src="js/jquery.videobackground.js"></script>
     <script>
       $(document).ready(function() {
-        $('dl').toggle();
-        $('h2').bind('click', function(event) {
-          event.preventDefault();
-          $(this).next('dl').slideToggle(500, function() {
-            $('.video-background').videobackground('resize');
-          });
-        });
         $('body').prepend('<div class="video-background"></div>');
         $('.video-background').videobackground({
-          videoSource: [['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.mp4', 'video/mp4'],
+          videoSource: [
+            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.mp4', 'video/mp4'],
             ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.webm', 'video/webm'],
-            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.ogv', 'video/ogg']],
-          controlPosition: '#main',
-          poster: 'video/big-buck-bunny.jpg',
+            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.ogv', 'video/ogg']
+          ],
+          poster: 'https://www.google.com/images/srpr/logo11w.png',
           loadedCallback: function() {
             $(this).videobackground('mute');
           }
@@ -57,8 +51,6 @@
 
   </head>
   <body>
-    <section class="video-background">need something here</section>
-
     <div class="container-fluid">
       <section class="download">
         <div class="row">
