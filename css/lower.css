@@ -116,6 +116,7 @@ ol {
   padding-top: 4em;
   font-size: 2em;
   letter-spacing: 6.5px;
+  font-weight: 400;
 }
 
 .side-two {
@@ -123,6 +124,7 @@ ol {
   padding-bottom: 14em;
   font-size: 2em;
   letter-spacing: 6.5px;
+  font-weight: 400;
 }
 
 .side-one li,
