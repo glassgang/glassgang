@@ -34,15 +34,21 @@
     <section class="video-feature"></section>
 
     <div class="container-fluid">
+      <section class="band">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="text-center">Glass Gang</h1>
+          </div>
+        </div>
+      </section>
+
       <section class="title">
         <div class="row">
           <div class="col-lg-12">
-            <a href="http://bit.ly/glass-gang-singles-edits-b-sides">
-              <img class="img-responsive center-block" src="img/artwork.jpg" alt="artwork for glass gang singles edits b sides" />
-            </a>
+            <h2><img class="img-responsive center-block" src="https://s3-us-west-2.amazonaws.com/glassgang/lower-cover-art.jpg" alt="Glass Gang Lower" /></h2>
           </div>
         </div>
-      </section
+      </section>
     </div><!-- /.container-fluid -->
 
     <section class="download">
@@ -86,11 +92,11 @@
         $('.video-feature').prepend('<div class="video-background"></div>');
         $('.video-background').videobackground({
           videoSource: [
-            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.mp4', 'video/mp4'],
+            ['https://s3-us-west-2.amazonaws.com/glassgang/video-loop.mp4', 'video/mp4'],
             ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.webm', 'video/webm'],
-            ['https://s3.amazonaws.com/fuzz-website/assets/video/of-12.ogv', 'video/ogg']
+            ['https://s3-us-west-2.amazonaws.com/glassgang/video-loop.ogv', 'video/ogg']
           ],
-          poster: 'https://s3-us-west-2.amazonaws.com/glassgang/video-still.jpg',
+          poster: 'https://s3-us-west-2.amazonaws.com/glassgang/lower-cover-art.jpg',
           loop: true,
           resize: true,
           preload: 'auto',
