@@ -144,14 +144,9 @@ ol {
   letter-spacing: 6.5px;
 }
 
-.footer h4,
-.footer h5,
-.footer .copyright {
+.footer .footer-header {
+  font-family: 'Playfair Display', serif;
   font-size: 1.5em;
   font-weight: 400;
-  letter-spacing: 3px;
-}
-
-.footer .copyright {
-  font-family: 'Playfair Display', serif;
+  letter-spacing: 5px;
 }
