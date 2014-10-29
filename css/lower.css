@@ -126,3 +126,9 @@ ol {
   font-weight: 400;
   letter-spacing: 8px;
 }
+
+.download h3 a {
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
