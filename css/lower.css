@@ -79,11 +79,17 @@ ol {
   padding-bottom: 13.5em;
 }
 
-.download {
+.download h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.download h3 a {
+  width: 100%;
+  display: inline-block;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
-
 
 .download h3 a:hover {
   background-color: #fff;
