@@ -144,10 +144,14 @@ ol {
   letter-spacing: 6.5px;
 }
 
-.footer .copyright h4,
-.footer .copyright h5,
+.footer h4,
+.footer h5,
 .footer .copyright {
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 400;
-  letter-spacing: 6.5px;
+  letter-spacing: 3px;
+}
+
+.footer .copyright {
+  font-family: 'Playfair Display', serif;
 }
