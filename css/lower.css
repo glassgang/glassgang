@@ -143,3 +143,11 @@ ol {
   font-weight: 400;
   letter-spacing: 6.5px;
 }
+
+.footer .copyright h4,
+.footer .copyright h5,
+.footer .copyright {
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 6.5px;
+}
