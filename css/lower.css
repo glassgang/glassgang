@@ -79,6 +79,10 @@ ol {
   padding-bottom: 13.5em;
 }
 
+.download {
+  padding-top: 0;
+}
+
 .download h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -92,6 +96,8 @@ ol {
 }
 
 .download h3 a:hover {
+  width: 100%;
+  display: inline-block;
   background-color: #fff;
   color: #000;
 }
