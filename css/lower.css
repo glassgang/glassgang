@@ -120,3 +120,8 @@ ol {
   padding-top: 8em;
   padding-bottom: 14em;
 }
+
+.band h1 {
+  font-size: 2em;
+  letter-spacing: 2px;
+}
