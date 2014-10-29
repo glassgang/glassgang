@@ -159,3 +159,10 @@ ol {
   letter-spacing: 5px;
   padding-bottom: 15px;
 }
+
+.footer .copyright {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
