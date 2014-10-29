@@ -27,6 +27,7 @@ a:hover {
 
 ol {
   list-style-type: none;
+  -webkit-padding-start: 0;
   margin: 0;
 }
 
