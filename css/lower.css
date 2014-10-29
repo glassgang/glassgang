@@ -60,6 +60,11 @@ a:hover {
   text-transform: uppercase;
 }
 
+.footer,
+.footer a {
+  color: #fff;
+}
+
 ol {
   text-transform: uppercase;
 }
