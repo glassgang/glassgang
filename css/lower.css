@@ -25,18 +25,6 @@ a:hover {
   text-decoration: none;
 }
 
-ol {
-  list-style-type: none;
-  -webkit-padding-start: 0;
-  -moz-padding-start: 0;
-  -webkit-padding-start: 0;
-  -khtml-padding-start: 0;
-  -o-padding-start: 0;
-  padding-start: 0;
-  padding: 0;
-  margin: 0;
-}
-
 .btn-default:hover {
   background-color: #f5f6f6;
 }
@@ -66,4 +54,21 @@ ol {
 
 .ui-video-background-controls {
   display: none;
+}
+
+.download {
+  text-transform: uppercase;
+}
+
+ol {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+  -webkit-padding-start: 0;
+  -khtml-padding-start: 0;
+  -o-padding-start: 0;
+  padding-start: 0;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
 }
