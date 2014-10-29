@@ -25,6 +25,10 @@ a:hover {
   text-decoration: none;
 }
 
+ol {
+  list-style-type: none;
+}
+
 .btn-default:hover {
   background-color: #f5f6f6;
 }
