@@ -36,10 +36,6 @@ a:hover {
   background-color: #f5f6f6;
 }
 
-.video-embed iframe {
-  width: 100%;
-}
-
 .video-feature {
   display: block;
 }
