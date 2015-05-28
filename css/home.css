@@ -40,6 +40,11 @@ a:hover {
   display: block;
 }
 
+.video-embed iframe {
+  width: 100%;
+  height: auto;
+}
+
 .video-background {
   display: block;
   background-repeat: no-repeat;
